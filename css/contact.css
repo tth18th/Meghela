@@ -172,3 +172,16 @@ textarea.input100 {
 .wrap-contact100-form-btn:hover .contact100-form-bgbtn {
   left: 0;
 }
+
+
+@media screen and (max-width: 600px) {
+
+.contact100-form-btn {
+  font-size: 2.5vh;
+}
+
+.input100 {font-size: 2.5vh;}
+.label-input100 {font-size: 2.5vh;}
+.contact100-form-title {font-size: 2.5vh;}
+
+}
