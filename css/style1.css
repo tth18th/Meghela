@@ -1,0 +1,126 @@
+
+.carrito__container {
+  width: 50%;
+}
+.carrito__container ul{
+  float: right;
+  margin-right: 30px;
+}
+.submenu {
+  position: relative;
+  list-style-type: none;
+  width: 50%;
+  padding-top: 20%;
+}
+.submenu #cart{
+  display: none;
+}
+.submenu img {
+  width:60px;
+  height:56px;
+  float:right;
+margin-right: 20%;
+}
+.submenu:hover #cart{
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  background-color: #f54960;
+  padding: 50px;
+  }
+.vacio {
+  padding: 10px;
+  background-color: crimson;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+}
+.borrar-curso {
+  background-color: red;
+  border-radius: 50%;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+#list-cour {
+  padding: 30px 0;
+}
+.titlec{
+  margin-bottom: 30px;
+}
+.cur__container{
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 25px;
+	max-width: 1080px;
+	margin: 0 auto;
+  padding: 0 10px;
+}
+.cur__item{
+  border: 1px solid rgba(0,0,0,0.25);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card__img, .img__cur{
+  width: 100%;
+}
+.info__card{
+  padding: 10px 10px;
+  position: relative;
+  height: 160px;
+}
+.info__card *{
+  margin-bottom: 10px;
+}
+.info__card h4{
+color: white;
+}
+.price{
+    color: red;
+}
+#titlec{
+  color: white;
+  text-align:center;
+}
+.add-cart{
+  background: #00B2BD;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+}
+.add-cart:hover{
+  background: #00828a;
+  color: white;
+}
+.fa{    margin-bottom: 0;}
+@media (min-width: 750px) {
+  header {
+    text-align: left;
+  }
+  #cart {
+padding-right: 20%;
+  }
+}
+
+@media (min-width: 472px) and (max-width: 767px) {
+  .cur__container{
+    grid-template-columns: 1fr 1fr;
+   }
+
+
+ }
+ @media all and (min-width: 768px) {
+  .cur__container{
+    grid-template-columns: 1fr 1fr 1fr;
+   }
+ }
+ @media all and (min-width: 949px) {
+   .cur__container{
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+   }
+ }
